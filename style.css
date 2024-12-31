@@ -136,3 +136,36 @@ body {
     font-size: 25px;
     font-family: 'Fredoka One', cursive;
 }
+@media (max-width: 768px) {
+    .wrapper h1 {
+        font-size: 30px; /* Giảm kích thước tiêu đề */
+        text-align: center;
+    }
+    .wrapper .box-time {
+        flex-direction: column; /* Chuyển các phần tử sang dạng cột */
+        align-items: center;
+        width: 100%; /* Chiếm toàn bộ chiều rộng */
+    }
+    .box-time .time {
+        width: 90px; /* Giảm kích thước ô thời gian */
+        height: 90px;
+        margin: 10px 0; /* Thêm khoảng cách giữa các ô */
+    }
+    .box-time .time p {
+        font-size: 25px; /* Giảm kích thước chữ */
+    }
+    .box-time .time span {
+        font-size: 20px; /* Giảm kích thước chữ */
+    }
+    .snowflake {
+        width: 7px; /* Giảm kích thước bông tuyết */
+        height: 7px;
+    }
+    .lantern {
+        width: 40px; /* Giảm kích thước đèn lồng */
+        height: 60px;
+    }
+    body {
+        padding: 10px; /* Thêm khoảng cách để tránh tràn */
+    }
+}
